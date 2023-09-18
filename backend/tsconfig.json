@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "dist",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "declaration": true,
+      "lib": [
+        "es2017.object",
+        "es2015",
+        "es2017",
+        "dom"
+      ]
+    },
+    "files": [
+      "./node_modules/@types/node/index.d.ts"
+    ],
+    "include": [
+      "src/**/*.ts",
+      "package.json"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+  }
+  

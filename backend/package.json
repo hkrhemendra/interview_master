@@ -1,0 +1,27 @@
+{
+  "name": "interview-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.19.3",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.6.2",
+    "@types/nodemon": "^1.19.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "node": "^20.6.0",
+    "nodemon": "^3.0.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.17",
+    "typescript": "^5.2.2"
+  }
+}
