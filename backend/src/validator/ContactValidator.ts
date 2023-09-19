@@ -26,7 +26,7 @@ export class ContactValidator{
 
     static postContacts(){
         const contactRepository = AppDataSource.getRepository(Contact)
-        console.log('Post COntact validator')
+
         return ContactValidator.validate([
             body('name', 'Name is required').isString(),
             body('email', 'Email is required').isEmail(),
@@ -52,7 +52,6 @@ export class ContactValidator{
 
     static getContactById(){
         const contactRepository = AppDataSource.getRepository(Contact)
-        console.log('1')
         return ContactValidator.validate(
             [
                 param('id', 'Id is required').isNumeric()
